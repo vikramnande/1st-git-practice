@@ -42,7 +42,7 @@ int main()
             }
         }
     }
-
+    cout<<"New generation"<<endl;
     solve(0,0,n,m,adj,vis);
     if(vis[i1][j1])
         cout<<1<<endl;
